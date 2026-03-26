@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Typography Demo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background: linear-gradient(to right, #74ebd5, #9face6);
+            padding: 40px;
+        }
+        .box {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        }
+        dt {
+            font-weight: bold;
+            color: #6f42c1;
+        }
+        dd {
+            margin-bottom: 10px;
+        }        
+    </style>
+</head>
+<body>
+
+<div class="container box">
+
+    <!-- Display Headings -->
+    <h1 class="display-1">Display 1</h1>
+    <h1 class="display-2">Display 2</h1>
+    <h1 class="display-3">Display 3</h1>
+    <h1 class="display-4">Display 4</h1>
+
+    <hr>
+
+    <!-- Small Text -->
+    <h1>Heading with small text</h1>
+   <small class="text-muted">This is small text</small>
+    
+    
+
+    <p class="lead">
+        This is a lead paragraph using Bootstrap typography.
+    </p>
+
+    <hr>
+
+    <!-- Description List -->
+    <h3>Description List</h3>
+    <dl class="row">
+        <dt class="col-sm-3">HTML</dt>
+        <dd class="col-sm-9">HyperText Markup Language used to structure web pages.</dd>
+
+        <dt class="col-sm-3">CSS</dt>
+        <dd class="col-sm-9">Used to style and design web pages.</dd>
+
+        <dt class="col-sm-3">Bootstrap</dt>
+        <dd class="col-sm-9">A framework to build responsive and modern websites quickly.</dd>
+    </dl>
+    <small class="Owner">Made by Aarav Goel</small>
+
+</div>
+
+</body>
+</html>
